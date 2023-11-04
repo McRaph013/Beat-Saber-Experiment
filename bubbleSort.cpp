@@ -20,7 +20,7 @@ void sortArray(float unsortedNumbers[], int size){
 
 int main(){
 
-    float numbers[] = {-4.2, -0.9, -2.1, -0.9, -3.3, 0.8, -1.1, -1.8, -1.2, -2.3, -1.7, -0.5, -1.9, -2.8, -2.6, -1.7, -0.2, -1.7, -2.4, -1.5, -1.7};
+    float numbers[] = {-4.2, -0.9, -2.1, -0.9, -3.3, 0.8, -1.1, -1.8, -1.2, -2.3, -1.7, -0.5, -1.9, -2.8, -2.6, -1.7, -0.2, -1.7, -2.4, -1.5, -1.7}; //These were different for standard and claw-grip ofc
     int size = sizeof(numbers) / sizeof(numbers[0]);
 
     sortArray(numbers, size);
